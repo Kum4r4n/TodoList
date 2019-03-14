@@ -1,0 +1,14 @@
+base.Configuration.ProxyCreationEnabled = false; = > model-context
+config.EnableCors(new EnableCorsAttribute("http://localhost:4200", headers: "*",methods:"*" )); => webApiconfig
+
+
+import { Http, Response, Headers, RequestOptions, RequestMethod} from '@angular/http';
+import { map, filter, switchMap } from 'rxjs/operators'
+
+http install
+
+npm install --save @angular/http
+
+
+
+ api:"http://localhost:2059/api" - enviornmnet.ys
